@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="32" fill="#B84C2B"/>
+
+  <!-- Chandelier body -->
+  <!-- Center drop rod -->
+  <rect x="30.5" y="8" width="3" height="10" rx="1.5" fill="#FAFAF8"/>
+
+  <!-- Main canopy / ceiling plate -->
+  <ellipse cx="32" cy="19" rx="10" ry="3.5" fill="#FAFAF8"/>
+
+  <!-- Central body -->
+  <ellipse cx="32" cy="25" rx="5" ry="4" fill="#FAFAF8"/>
+
+  <!-- Arms -->
+  <!-- Left arm -->
+  <path d="M27 25 Q18 27 16 33" stroke="#FAFAF8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Left-center arm -->
+  <path d="M28 27 Q24 30 23 35" stroke="#FAFAF8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Right-center arm -->
+  <path d="M36 27 Q40 30 41 35" stroke="#FAFAF8" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Right arm -->
+  <path d="M37 25 Q46 27 48 33" stroke="#FAFAF8" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Candle cups -->
+  <rect x="13" y="33" width="6" height="3" rx="1" fill="#FAFAF8"/>
+  <rect x="20.5" y="35" width="5" height="3" rx="1" fill="#FAFAF8"/>
+  <rect x="29.5" y="29" width="5" height="3" rx="1" fill="#FAFAF8"/>
+  <rect x="38.5" y="35" width="5" height="3" rx="1" fill="#FAFAF8"/>
+  <rect x="45" y="33" width="6" height="3" rx="1" fill="#FAFAF8"/>
+
+  <!-- Flames -->
+  <ellipse cx="16" cy="32" rx="1.5" ry="2.5" fill="#F5E8E3" opacity="0.9"/>
+  <ellipse cx="23" cy="34" rx="1.5" ry="2.5" fill="#F5E8E3" opacity="0.9"/>
+  <ellipse cx="32" cy="28" rx="1.5" ry="2.5" fill="#F5E8E3" opacity="0.9"/>
+  <ellipse cx="41" cy="34" rx="1.5" ry="2.5" fill="#F5E8E3" opacity="0.9"/>
+  <ellipse cx="48" cy="32" rx="1.5" ry="2.5" fill="#F5E8E3" opacity="0.9"/>
+
+  <!-- Bottom crystal drop from center -->
+  <ellipse cx="32" cy="31" rx="3" ry="2" fill="#D4623C"/>
+  <path d="M30 33 L32 40 L34 33 Z" fill="#FAFAF8" opacity="0.85"/>
+</svg>
