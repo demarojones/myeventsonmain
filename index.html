@@ -811,7 +811,7 @@
           Is there parking and handicapped access?
           <span class="faq-icon">+</span>
         </button>
-        <div class="faq-answer"><p>Parking is available on West Main Street — most guests should enter the boardwalk area between Queenie's and Goin' Coastal (no stairs required). Additional parking is available behind Panera Bread, on Archer St, and at the courthouse.</p></div>
+               <div class="faq-answer"><p>Parking is available on West Main Street — most guests should enter the boardwalk area between Queenie's and Goin' Coastal (no stairs required). Additional parking is available behind Panera Bread, on Archer St, and at the courthouse.</p></div>
       </div>
 
     </div>
@@ -882,6 +882,26 @@
     <p class="footer-sub">Canton, GA · Suite 100</p>
   </div>
 </footer>
+
+<!-- dynamic footer year: replace first 4-digit year in the footer with the current year -->
+<script>
+(function(){
+  function setFooterYear(){
+    var footer = document.querySelector('footer');
+    if(!footer) return;
+    var html = footer.innerHTML;
+    var currentYear = new Date().getFullYear();
+    // replace the first occurrence of a 4-digit year starting with 20 (e.g., 2025)
+    var newHtml = html.replace(/20\d{2}/, currentYear);
+    if(newHtml !== html) footer.innerHTML = newHtml;
+  }
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', setFooterYear);
+  } else {
+    setFooterYear();
+  }
+})();
+</script>
 
 <script>
   /* ── MOBILE MENU ── */
